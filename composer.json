@@ -1,0 +1,31 @@
+{
+    "name": "zangsilu/yii2-mailer-queue",
+
+    "type": "yii2-extension",
+
+    "description": "使用队列异步发送邮件.",
+    "keywords": ["yii2", "redis", "async", "mailer"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/zangsilu/yii2-mailer-queue/issues",
+        "forum": "http://blog2.pl39.com",
+        "source": "https://github.com/zangsilu/yii2-mailer-queue.git"
+    },
+    "authors": [
+        {
+            "name": "zangsilu",
+            "email": "532817108@qq.com"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-redis": "~2.0.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "zangsilu\\mailerqueue\\": "src/"
+        }
+    }
+}
